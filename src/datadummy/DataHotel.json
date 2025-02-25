@@ -1,0 +1,63 @@
+[{
+	"name": "MIRACLE RESORTS",
+	"price": 500,
+	"bookingID": "9856321",
+	"type": "Turkys Resorts",
+	"location": "USA",
+	"img": "/hotels1.jpg",
+	"video":"https://youtu.be/AIkOXGTx_SY?si=CgKXusif6WivgBKE"
+},
+	{
+		"name": "Warwick Hotels & Resorts",
+		"price": 400,
+		"bookingID": "9856321",
+		"type": "Warwick Hotels",
+		"location": "Thailand",
+		"img": "/hotels2.jpg",
+		"video":"https://youtu.be/AIkOXGTx_SY?si=CgKXusif6WivgBKE"
+	},
+	{
+		"name": "Warwick Hotels & Resorts",
+		"price": 400,
+		"bookingID": "9856321",
+		"type": "Warwick Hotels",
+		"location": "Thailand",
+		"img": "/hotels3.jpg",
+		"video":"https://youtu.be/AIkOXGTx_SY?si=CgKXusif6WivgBKE"
+	},
+	{
+		"name": "Warwick Hotels & Resorts",
+		"price": 400,
+		"bookingID": "9856321",
+		"type": "Warwick Hotels",
+		"location": "Thailand",
+		"img": "/hotels4.jpg",
+		"video":"https://youtu.be/AIkOXGTx_SY?si=CgKXusif6WivgBKE"
+	},
+	{
+		"name": "Warwick Hotels & Resorts",
+		"price": 400,
+		"bookingID": "9856321",
+		"type": "Warwick Hotels",
+		"location": "Thailand",
+		"img": "/hotels5.jpg",
+		"video":"https://youtu.be/AIkOXGTx_SY?si=CgKXusif6WivgBKE"
+	},
+	{
+		"name": "ISO - How Hilton is going green",
+		"price": 500,
+		"bookingID": "9856321",
+		"type": "ISO hotels",
+		"location": "india",
+		"img": "/hotels6.jpg",
+		"video":"https://youtu.be/AIkOXGTx_SY?si=CgKXusif6WivgBKE"
+	},
+	{
+		"name": "Aston Hilton green",
+		"price": 500,
+		"bookingID": "9856321",
+		"type": "ISO hotels",
+		"location": "india",
+		"img": "/hotels7.jpg",
+		"video":"https://youtu.be/AIkOXGTx_SY?si=CgKXusif6WivgBKE"
+	}]
