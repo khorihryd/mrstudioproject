@@ -7,7 +7,7 @@ import HeroImage from '../assets/img/heroimg.jpg'
 
 export default function Hero() {
 	return (
-		<section className="max-w-screen-lg mt-20 mx-auto px-2">
+		<section className="max-w-screen-lg md:mt-20 mx-auto md:px-2">
 			<MainHero />
 		</section>
 	)
@@ -15,7 +15,36 @@ export default function Hero() {
 
 	const MainHero = ()=> {
 		return (
-			<div className="w-full h-[30rem] rounded-3xl overflow-hidden md:bg-gradient-to-r md:from-emerald-200 md:from-0% md:via-cyan-400 md:via-40% md:to-transparent md:to-70% grid grid-cols-1 md:grid-cols-[1fr_1fr] relative before:hidden md:before:block before:content-['*'] before:absolute before:w-full before:h-full before:z-[-1] before:bg-[url('/heroimg.jpg')] before:bg-fill before:bg-right before:bg-no-repeat"
+			<div className="
+				relative
+				pt-12
+				md:pt-0
+				px-2
+				md:text-left
+				w-full
+				h-[30rem]
+				md:rounded-3xl
+				grid
+				grid-cols-1
+				overflow-hidden
+				md:bg-gradient-to-r
+				from-emerald-200
+				from-0%
+				via-cyan-400
+				via-40%
+				to-transparent
+				to-70%
+				md:grid-cols-[1fr_1fr]
+				md:before:block
+				before:content-['']
+				before:absolute
+				before:w-full
+				before:h-full
+				md:before:bg-[url('/heroimg.jpg')]
+				before:bg-fill
+				before:bg-right
+				before:z-[-1]
+				before:bg-no-repeat"
 				>
 				<div className="pt-16 pb-32 md:pl-16 flex flex-col justify-between items-start">
 					<h1 className="font-extrabold text-[3.5rem] leading-tight mb-5">Enjoy Your<br />Dream Vacations</h1>

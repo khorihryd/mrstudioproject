@@ -1,4 +1,4 @@
-import {
+content://com.termux.documents/tree/%2Fdata%2Fdata%2Fcom.termux%2Ffiles%2Fhome%2Fkhori%2Fweb%2Flandingpage%2Fbeachhotels::/data/data/com.termux/files/home/khori/web/landingpage/beachhotels/src/components/TopAirlines.jsximport {
 	SiLionair,
 	SiEmirates,
 	SiTurkishairlines,
@@ -63,7 +63,7 @@ export default function TopAirlines() {
 							</li>
 						</ul>
 					</div>
-					<img src={"/travels.svg"} alt="ilustration" className="md:w-2/3 md:absolute right-0 bottom-0 md:bottom-[-10%] scale-90 " />
+					<img src={"./travels.svg"} alt="ilustration" className="md:w-2/3 md:absolute right-0 bottom-0 md:bottom-[-10%] scale-90 " />
 			</div>
 		</div>
 	</section>

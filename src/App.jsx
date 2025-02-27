@@ -19,17 +19,36 @@ export default function App() {
 	const [showNav,
 		setShowNav] = useState(false);
 
+	const [isScroll,
+		setIsScroll] = useState(false);
+
 	const handleClickMenu = ()=> {
 		setShowNav(!showNav)
 		if (!showNav) {
 			document.body.classList.add('overflow-hidden')
-		}else{
+		} else {
 			document.body.classList.remove('overflow-hidden')
 		}
 	}
+	
+	useEffect(()=>{
+		const handleScroll = ()=>{
+			if(window.scrollY > 50){
+				setIsScroll(true)
+			}else{
+				setIsScroll(false)
+			}
+			
+			window.addEventListener('scroll',handleScroll);
+			return ()=>{
+				window.removeEventListener('scroll',handleScroll)
+			}
+		}
+	},[])
+	
 	return (
 		<div className="w-full">
-			<Header toggleBtnMenu={handleClickMenu} show={showNav} />
+			<Header toggleBtnMenu={handleClickMenu} show={showNav} scroll={isScroll}/>
 			<Hero />
 			<Facility dataHotel={DataHotel} />
 			<CityChoice dataHotel={DataHotel} />

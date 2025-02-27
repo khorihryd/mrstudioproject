@@ -4,7 +4,7 @@
 	"bookingID": "9856321",
 	"type": "Turkys Resorts",
 	"location": "USA",
-	"img": "/hotels1.jpg",
+	"img": "./hotels1.jpg",
 	"video":"https://youtu.be/AIkOXGTx_SY?si=CgKXusif6WivgBKE"
 },
 	{
@@ -13,7 +13,7 @@
 		"bookingID": "9856321",
 		"type": "Warwick Hotels",
 		"location": "Thailand",
-		"img": "/hotels2.jpg",
+		"img": "./hotels2.jpg",
 		"video":"https://youtu.be/AIkOXGTx_SY?si=CgKXusif6WivgBKE"
 	},
 	{
@@ -22,7 +22,7 @@
 		"bookingID": "9856321",
 		"type": "Warwick Hotels",
 		"location": "Thailand",
-		"img": "/hotels3.jpg",
+		"img": "./hotels3.jpg",
 		"video":"https://youtu.be/AIkOXGTx_SY?si=CgKXusif6WivgBKE"
 	},
 	{
@@ -31,7 +31,7 @@
 		"bookingID": "9856321",
 		"type": "Warwick Hotels",
 		"location": "Thailand",
-		"img": "/hotels4.jpg",
+		"img": "./hotels4.jpg",
 		"video":"https://youtu.be/AIkOXGTx_SY?si=CgKXusif6WivgBKE"
 	},
 	{
@@ -40,7 +40,7 @@
 		"bookingID": "9856321",
 		"type": "Warwick Hotels",
 		"location": "Thailand",
-		"img": "/hotels5.jpg",
+		"img": "./hotels5.jpg",
 		"video":"https://youtu.be/AIkOXGTx_SY?si=CgKXusif6WivgBKE"
 	},
 	{
@@ -49,7 +49,7 @@
 		"bookingID": "9856321",
 		"type": "ISO hotels",
 		"location": "india",
-		"img": "/hotels6.jpg",
+		"img": "./hotels6.jpg",
 		"video":"https://youtu.be/AIkOXGTx_SY?si=CgKXusif6WivgBKE"
 	},
 	{
@@ -58,6 +58,6 @@
 		"bookingID": "9856321",
 		"type": "ISO hotels",
 		"location": "india",
-		"img": "/hotels7.jpg",
+		"img": "./hotels7.jpg",
 		"video":"https://youtu.be/AIkOXGTx_SY?si=CgKXusif6WivgBKE"
 	}]
